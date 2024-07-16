@@ -1,0 +1,38 @@
+<div class="w-100">
+  <form action="/addblog" method="post" class="mx-auto my-4 mw-100">
+    <div class="form-group my-2">
+      <label for="title" class="fw-bold">Blog Title</label>
+      <input
+        id="title"
+        class="form-control form-control-lg"
+        type="text"
+        name="title"
+        required
+      />
+    </div>
+    <div class="form-group my-2">
+      <label for="desc" class="form-label fw-bold">Blog Description</label>
+      <textarea
+        id="desc"
+        class="form-control"
+        rows="3"
+        name="desc"
+        required
+      ></textarea>
+    </div>
+    <div class="form-group my-2">
+      <label for="imgUrl" class="fw-bold">Blog Image URL</label>
+      <input
+        id="imgUrl"
+        class="form-control form-control-lg"
+        type="text"
+        name="imgUrl"
+      />
+    </div>
+    <div class="my-2 mx-auto">
+      <button type="submit" class="btn btn-primary btn-lg mw-100">
+        Add Blog
+      </button>
+    </div>
+  </form>
+</div>

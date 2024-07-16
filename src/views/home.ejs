@@ -1,0 +1,15 @@
+<table class="table table-striped">
+  <tbody>
+    <% blogs.forEach((blog)=> { %>
+    <tr>
+      <td>
+        <p class="h3 text-primary"><%= blog.title %></p>
+        <p class="font-weight-normal"><%= blog.desc %></p>
+      </td>
+      <td>
+        <img src="<%= blog.imgUrl %>" height="250px" width="250px" />
+      </td>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>
